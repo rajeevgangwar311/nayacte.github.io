@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang='en'>
+<head>
+
+<meta charset='UTF-8'>
+<title>nayacte</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href='style.css' type='text/css' rel='stylesheet'>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+<header>
+<!--sidenav bar start-->
+<div id='mainbox' onclick='openFun()'>&#9776; open</div>
+
+<div id='menu' class='sidemenu'>
+<a href="#">home</a>
+<a href="#">about </a>
+<a href="#">login </a>
+<a href="#" class="cb" onclick='closeFun()'>&times;</a>
+
+</div>
+<script>
+function openFun(){
+document.getElementById('menu').style.width='300px';
+document.getElementById('menubox').style.marginLeft='300px';
+
+}
+function closeFun(){
+document.getElementById('menu').style.width='0px';
+document.getElementById('menubox').style.marginLeft='0px';
+
+}
+
+</script>
+
+
+<!--sidenav bar end-->
+<nav id="menu">
+<ul>
+<li><a href="#">home</a>  </li>
+<li><a href="#">about</a>  </li>
+<li><a href="#">log in</a>  </li>
+
+</ul>
+</nav>
+<div id="logo">
+<a href="#">rajeev</a>
+</div>
+<nav id="social">
+<ul>
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+
+</ul>
+</nav>
+
+</header>
+<div id="main">
+<aside class="">
+<ul>
+<li><a href="#">link1</a></li>
+<li><a href="#">link2</a></li>
+<li><a href="#">link3</a></li>
+<li><a href="#">link4</a></li>
+<li><a href="#">link5</a></li>
+</ul>
+<!--<img src="h.png">-->
+
+<script>
+var images= ["1.png","2.png","3.png"];
+var i=0;
+function slider(){
+document.getElementById("im").src= images[i];
+if(i<(images.length-1))
+  i++;
+else
+ i=0;
+}
+setInterval(slider, 2000);
+</script>
+<h3 id="h3">Learn web Design</h3>
+<div class="ab">
+   <img src="1.png" id="im">
+
+</div>
+
+</aside>
+<article class=''><h2>welcome to website</h2>
+<p>The example below also slides in the side navigation, and pushes the page content to the right, only this time, we add a black background color with a 40% opacity to the body element, to "highlight" the side navigation:
+  </P>
+<h2>our services</h2>
+<div class="serveces-container">
+<div class="serveces-box">
+<div class="serveces-img">
+<img src="1.png" alt="css">
+</div>
+<div class="serveces-title">
+<h3>web design</h3>
+</div>
+<div class="serveces-desc">
+<p>The example below also slides in the side navigation, and pushes the page content to the right, only thi
+The example below also slides in the side navigation, and pushes the page content to the right, only thi</p>
+
+</div>
+<div class="call-to-action">
+<a href="#">read more</a>
+</div>
+</div>
+<div class="serveces-box">
+<div class="serveces-img">
+<img src="2.png" alt="css">
+</div>
+<div class="serveces-title">
+<h3>web development</h3>
+</div>
+<div class="serveces-desc">
+<p>The example below also slides in the side navigation, and pushes the page content to the right, only thi</p>
+
+</div>
+<div class="call-to-action">
+<a href="#">read more</a>
+</div>
+</div>
+<div class="serveces-box">
+<div class="serveces-img">
+<img src="3.png" alt="css">
+</div>
+<div class="serveces-title">
+<h3>mobile app development</h3>
+</div>
+<div class="serveces-desc">
+<p>The example below also slides in the side navigation, and pushes the page content to the right, only thi</p>
+
+</div>
+<div class="call-to-action">
+<a href="#">read more</a>
+</div>
+</div>
+</div>
+
+</article>
+</div>
+<footer>
+<div class="allft">
+
+<div class="fd">
+<h2>contact form</h2>
+<form>
+
+<label for='name'>Name:</label><input type="text" name="name"id='n1'required >
+<label for='email'>Email:</label><input type="text" name="email" id='e1' required>
+<label for='email'>Message:</label><textarea rows='12' cols='25' NAME='message'></textarea><br>
+<input type="submit" name="submit" value="send">
+</form>
+</div>
+</div>
+<script>
+/*function validate Form(){
+var name=document.getElementById('n1').value;
+var email=document.getElementById('e1').value;
+if(name==""&& email==""){
+'enter name and email';
+return false;
+}
+}
+*/
+</script>
+<div class='copy'>
+&copy; rajeev<br>
+example below also slides in the side navigation, and pushes the page content to the right, onlyThe example below also slides in the side navigation, and pushes the page content to the right, onlyThe example below also slides in the side navigation, and pushes the page content to the right, onlyThe example below also slides in the side navigation, and pushes the page content to the right, onlyThe example below also slides in the side navigation, and pushes the page content to the right, onlyThe 	example below also slides in the side navigation, and pushes the page content to the right, only
+</div>
+<div class='copy'>
+&copy; rajeev<br>
+example below also slides in the side navigation, and pushes the page content to the right, onlyThe example below also slides in the side navigation, and pushes the page content to the right, onlyThe example below also slides in the side navigation, and pushes the page content to the right, onlyThe example below also slides in the side navigation, and pushes the page content to the right, onlyThe example below also slides in the side navigation, and pushes the page content to the right, only
+</div>
+<div class="fx">
+&copy; Copy Right made by Rajeev.
+</div>
+</footer>
+</body>
+</html>
